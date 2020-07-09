@@ -1,0 +1,83 @@
+body {
+    background-color: #f4f5f6;
+}
+.red {
+    background-color: red;
+}
+.main {
+    max-width: 1300px;
+    padding: 0;
+    background-color: white;
+}
+.weather-icon {
+    height: 24px;
+    width: 24px;
+}
+.svg {
+    width: 396px;
+    height: 60px;
+    fill: white;
+}
+.weather-date {
+    font-size: 14px;
+}
+.btn-subscribe {
+    border-radius: 100px;
+    background-color: #ffe400;
+}
+.btn-primary:hover {
+    text-decoration: none;
+    background-color: #ffe400;
+}
+.true-center {
+    width: 237px;
+}
+.nav-link {
+    color: black;
+}
+.nav-link:hover, .trending-item:hover{
+    color: red;
+}
+.nav-container {
+    width: 95%;
+    margin-top: -13px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
+.form-width {
+    width: 20px;
+}
+.upper-tri {
+    border-left: 13px solid transparent;
+    border-right: 13px solid red;
+    border-bottom: 13px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.fa-bars {
+    font-size: 28px;
+    color: rgba(255, 255, 255, .55);
+}
+.fa-user {
+    color: rgba(255, 255, 255, .55);
+}
+@media only screen and (max-width: 991px) { 
+    .svg {
+            height: 20px;
+            width: 132px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .fa-bars {
+        font-size: 18px;
+    }
+    .btn-subscribe {
+        font-size: 12px;
+    }
+
+}
