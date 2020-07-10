@@ -66,6 +66,60 @@ body {
 .fa-user {
     color: rgba(255, 255, 255, .55);
 }
+.card-font {
+    font-size: 14px;
+}
+.underline-red:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+.corner-background {
+    background-color: rgba(255, 255, 255, .9)
+}
+.text-red {
+    color: red;
+}
+.turn-red:hover {
+    color: red;
+}
+.text-blue {
+    color: #3581f4;
+}
+.small-title {
+    font-size: 13px;
+}
+.small-bottom {
+    font-size: 11px;
+    background-color: #c2d4d7;
+}
+.circle-picture {
+    width: 79px;
+}
+.vs-position {
+    left: 50%;
+    margin-left: -12px;
+    top: 50%;
+    margin-top: -14px;
+    border-radius: 50%;
+    z-index: 3;
+}
+.article-logo {
+    width: 28px;
+}
+.bg-sign-up {
+    background-color: #f4f5f6;
+}
+.font-sign {
+    font-size: 16px;
+}
+.btn-sign {
+    width: 100%;
+    background-color: red;
+}
 @media only screen and (max-width: 991px) { 
     .svg {
             height: 20px;
