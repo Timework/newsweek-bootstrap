@@ -110,8 +110,11 @@ body {
 .article-logo {
     width: 28px;
 }
-.bg-sign-up {
-    background-color: #f4f5f6;
+.bg-sign-up, .bg-sign-features {
+    background-color: rgba(104, 104, 104, 0.15);
+}
+.bg-sign-features:hover {
+    background-color: rgba(104, 104, 104, 0.4);
 }
 .font-sign {
     font-size: 16px;
@@ -119,6 +122,51 @@ body {
 .btn-sign {
     width: 100%;
     background-color: red;
+}
+.bg-issue {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.font-bigger {
+    font-size: 20px;
+}
+.limit-w {
+    width: 111px;
+}
+.bg-sub {
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5&quot;) center center / cover no-repeat;
+    width: 100%!important;
+    max-width: 191px;
+    z-index: 10;
+}
+.sub-img-l {
+    left: 0;
+}
+.sub-img-r {
+    left: 50px;
+    top: 10px;
+    z-index: 2;
+}
+.m-height {
+    height: 250px;
+}
+.text-black {
+    color: black;
+}
+.footer-i {
+    height: 36px;
+    fill: #f72210;
+}
+.small-font {
+    font-size: 12px;
+}
+.footer-icon {
+    font-size: 24px;
+}
+.footer-icon:hover {
+    color: blue;
+}
+.bla:hover {
+    color:black !important;
 }
 @media only screen and (max-width: 991px) { 
     .svg {
